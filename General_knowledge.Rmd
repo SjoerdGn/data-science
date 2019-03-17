@@ -1,0 +1,25 @@
+---
+title: "Knowledge C_Data_Scientist_Toolbox"
+author: "Sjoerd Gnodde"
+date: "26 februari 2019"
+output: html_document
+---
+
+# Get help
+
+```{Code getting information}
+?rnorm
+
+help.search('rnorm')
+
+args('rnorm')
+
+rnorm
+```
+
+
+```{Reading text file}
+con <- url("http://jhsph.edu", "r")
+x <- readLines(con)
+head(x)
+```
