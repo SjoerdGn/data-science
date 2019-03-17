@@ -23,3 +23,15 @@ con <- url("http://jhsph.edu", "r")
 x <- readLines(con)
 head(x)
 ```
+## Types of data analysis
+* Descriptive
+* Exploratory
+* Inferential
+* Predictive
+* Causal
+* Mechanisic
+
+## Share
+* github
+* figshare
+* https://github.com/jtleek/datasharing
